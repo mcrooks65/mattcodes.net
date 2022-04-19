@@ -1,5 +1,5 @@
 # Code Repository For mattcodes.net
-This is the git repo for [mattcodes.net](mattcodes.net).
+This is the git repo for [mattcodes.net](http://mattcodes.net).
 It is authored by [Matthew Crooks](https://github.com/mcrooks65)
 
 ## Build Notes & Website Plans
