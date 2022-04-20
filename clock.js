@@ -1,0 +1,1 @@
+console.log(`clock.js is linked into index.html!`);
