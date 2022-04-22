@@ -6,6 +6,7 @@ var showCurrentTime = function()
     var currentTime = new Date();
     var hours = currentTime.getHours();
     var minutes = currentTime.getMinutes();
+    var seconds = currentTime.getSeconds();
     var day = currentTime.getDate();
     var month = currentTime.getMonth() + 1;
     var fullYear = currentTime.getFullYear();
@@ -14,7 +15,7 @@ var showCurrentTime = function()
     {
         minutes = "0" + minutes;
     }
-    var seconds = currentTime.getSeconds();
+    
     if (seconds < 10)
     {
         seconds = "0" + seconds;
