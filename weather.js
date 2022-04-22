@@ -1,0 +1,1 @@
+console.log(`weather.js is linked into index.html!`);
