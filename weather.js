@@ -23,19 +23,19 @@ var showWeather = function ()
         let windStatus = document.getElementById("windStatus")
         windStatus.innerText = `The wind is heading ${windDir} with speed varying from ${windMPH} to ${gustMPH} MPH.`
 
-        // let forecastData1 = data.forecast.forecastday[0] 
-        // let forecastDay1Name = getDayFromDate(forecastData1.date) 
-        // let forecastDay1 = forecastData1.day
-        // let day1AverageTempF = forecastDay1.avgtemp_f
-        // let day1AverageTempC = forecastDay1.avgtemp_c
-        // let day1Condition = forecastDay1.condition.text
-        // let day1LowTempF = forecastDay1.mintemp_f
-        // let day1LowTempC = forecastDay1.mintemp_c
-        // let day1HighTempF = forecastDay1.maxtemp_f
-        // let day1HighTempC = forecastDay1.maxtemp_c
+        let forecastData1 = data.forecast.forecastday[0] 
+        let forecastDay1Name = getDayFromDate(forecastData1.date) 
+        let forecastDay1 = forecastData1.day
+        let day1AverageTempF = forecastDay1.avgtemp_f
+        let day1AverageTempC = forecastDay1.avgtemp_c
+        let day1Condition = forecastDay1.condition.text
+        let day1LowTempF = forecastDay1.mintemp_f
+        let day1LowTempC = forecastDay1.mintemp_c
+        let day1HighTempF = forecastDay1.maxtemp_f
+        let day1HighTempC = forecastDay1.maxtemp_c
 
-        // let forecastWeather1 = document.getElementById("forecastWeather1");
-        // forecastWeather1.innerText = `Today, ${forecastDay1Name}, the forecast looks ${day1Condition}.  Expect average temperatures to be ${day1AverageTempF}\xB0F / ${day1AverageTempC}\xB0C with a high of ${day1HighTempF}\xB0F / ${day1HighTempC}\xB0C and low of ${day1LowTempF}\xB0F / ${day1LowTempC}\xB0C`
+        let forecastWeather1 = document.getElementById("forecastWeather1");
+        forecastWeather1.innerText = `Today, ${forecastDay1Name}, the forecast looks ${day1Condition}.  Expect average temperatures to be ${day1AverageTempF}\xB0F / ${day1AverageTempC}\xB0C with a high of ${day1HighTempF}\xB0F / ${day1HighTempC}\xB0C and low of ${day1LowTempF}\xB0F / ${day1LowTempC}\xB0C`
 
     //     let forecastData2 = data.forecast.forecastday[1]
     //     let forecastDay2Name = getDayFromDate(forecastData2.date) 
