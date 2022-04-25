@@ -7,6 +7,8 @@ It is authored by [Matthew Crooks](https://github.com/mcrooks65)
 
 * The plan is to deploy my school and personal projects for my job hunt portfolio, as well as any other handy little JS web accesssible things I think might be handy.
 
+* _There is a known security flaw on this current build of the site.  See notes at the top of weather.js_
+
 ## Project Goals
 1. Personal Dashboard
     * Clock, Date, to-do lists, maybe pulls in web accessible api data for weather, news headlines etc. 
