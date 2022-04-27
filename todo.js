@@ -1,0 +1,1 @@
+console.log("todo.js is successfully linked to index.html")
