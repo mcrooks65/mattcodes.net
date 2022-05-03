@@ -96,21 +96,26 @@ p {
 .task {
 	font-size: 18px;
 	padding: 0 10px;
-}
-
-.task:focus {
+	width: fit-content;
+	background: transparent;
+	border: none;
+	color: #fff;
+  }
+  
+  .task:focus {
 	outline: none;
-}
-
-.todo-app ul li i {
+  }
+  
+  .app ul li i {
 	float: right;
 	cursor: pointer;
-}
-
-.todo-app ul li i:hover {
+  }
+  
+  .app ul li i:hover {
 	color: rgb(255, 82, 82);
-}
-.complete {
+  }
+  
+  .completed {
 	color: rgba(192, 192, 192, 0.8);
 	text-decoration: line-through;
   }
