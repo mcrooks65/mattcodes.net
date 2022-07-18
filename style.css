@@ -102,20 +102,25 @@ p {
 	color: #fff;
   }
   
-  .task:focus {
+.task:focus {
 	outline: none;
   }
   
-  .app ul li i {
+.todo-app ul li i {
 	float: right;
 	cursor: pointer;
   }
-  
-  .app ul li i:hover {
+
+/* Darker background-color on hover */
+.todo-app ul li:hover {
+	background: #ddd;
+  }
+
+.todo-app ul li i:hover {
 	color: rgb(255, 82, 82);
   }
   
-  .completed {
+.completed {
 	color: rgba(192, 192, 192, 0.8);
 	text-decoration: line-through;
   }
