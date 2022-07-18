@@ -2,7 +2,7 @@
 // 1) Add more information for current weather conditions.  Wind would be useful since that seems to be a problem here in Simi Valley.  (DONE)
 // 2) 3-Day Forecast information is available, let's make use of it.  (DONE)
 // 3) Allow user to enter their zipcode to fetch their own local weather.
-// IMPORTANT SECURITY NOTICE - API KEYS SHOULD NOT STORED IN THE FRONT END.  THIS IS HIGHLY ABUSABLE VULNERABILITY.  OR WOULD BE IF THIS WASNT A FREE API WITH LIMITED REQUESTS.  NEED TO IMPLEMENT A SOLUTION: https://www.youtube.com/watch?v=uk9pviyvrtg - We will try this solution using NodeJS and dotenv Environment Variables soon.
+// IMPORTANT SECURITY NOTICE - API KEYS SHOULD NOT BE STORED IN THE FRONT END.  THIS IS HIGHLY ABUSABLE VULNERABILITY.  OR WOULD BE IF THIS WASNT A FREE API WITH LIMITED REQUESTS.  NEED TO IMPLEMENT A SOLUTION: https://www.youtube.com/watch?v=uk9pviyvrtg - We will try this solution using NodeJS and dotenv Environment Variables soon.
 
 const forecastWeatherApiUrl = 'http://api.weatherapi.com/v1/forecast.json?key=b4da08ea83cd4e3791000620222204&q=93065&days=3&aqi=no&alerts=no' // URL leads to API end-point for Simi Valley weather from weatherapi.com SEE SECURITY NOTICE ABOVE REGARDING THIS LINE
 
