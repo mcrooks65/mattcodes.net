@@ -1,7 +1,10 @@
 body {
 	background: #235cc5;
+	background-size: cover;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
+	font-weight: bolder;
+    font-size: x-large;
 }
 p {  
     font-style: italic;
