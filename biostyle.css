@@ -39,9 +39,9 @@ p {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: all .4s linear;
   }
   
-  /* Change the link color to #111 (black) on hover */
 #navbar li a:hover {
     background-color: #111;
   }
