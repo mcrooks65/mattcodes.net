@@ -30,7 +30,7 @@ function loadTasks() {
 
 function addTask() {
   const task = document.querySelector("form input");
-  const list = document.querySelector("ul");
+  const list = document.getElementById("todolist");
   // return if task is empty
   if (task.value === "") {
     alert("Please add some task!");
