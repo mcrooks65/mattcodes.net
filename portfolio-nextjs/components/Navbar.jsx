@@ -39,7 +39,7 @@ const Navbar = () => {
               <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
             </Link>
           </ul>
-          <div onClick={handleNav} className='md:hidden'>
+          <div onClick={handleNav} className='md:hidden cursor-pointer'>
             <AiOutlineMenu size={25} />
           </div>
         </div>
