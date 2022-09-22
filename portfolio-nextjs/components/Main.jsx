@@ -1,4 +1,7 @@
 import React from 'react'
+import { AiOutlineMail } from 'react-icons/ai'
+import { BsFillPersonLinesFill } from 'react-icons/bs'
+import { FaGithub, FaLinkedin, FaLinkedinIn } from 'react-icons/fa'
 
 const Main = () => {
   return (
@@ -17,6 +20,20 @@ const Main = () => {
                 <p className='py-4 text-gray-600 max-2-[70%] m-auto'>
                     I&#39;m a full-stack web developer specializing in building and designing clean user-friendly digital experiences.  Currently I&#39;m focused on building responsive front-end web applications while maintaining my own back-end API&#39;s for various projects.
                 </p>
+                <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <FaLinkedinIn />
+                    </div>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <FaGithub />
+                    </div>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <AiOutlineMail />
+                    </div>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <BsFillPersonLinesFill />
+                    </div>
+                </div>
             </div>
         </div>
     </div>
