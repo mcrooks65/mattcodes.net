@@ -1,4 +1,7 @@
 import React from 'react'
+import Link from 'next/link';
+import Image from 'next/image'
+import AboutImg from '../public/assets/about.jpg';
 
 const About = () => {
   return (
@@ -11,7 +14,14 @@ const About = () => {
                 <p className='py-2 text-gray-600'>
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
                 </p>
-                
+                <Link href='/#projects'>
+                  <p className='py-2 text-gray-600 underline cursor-pointer'>
+                    Check out some of my latest projects.
+                  </p>
+                </Link>
+                <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+                  <Image src={AboutImg} className='rounded-xl' alt='/' />
+                </div>
             </div>
         </div>
     </div>
