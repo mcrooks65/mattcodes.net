@@ -163,6 +163,51 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
+                                src='/assets/skills/bootstrap.png' 
+                                width='64px' 
+                                height='64px' 
+                                alt='/'
+                            />
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3>Bootstrap</h3>
+                        </div>
+                    </div>
+                </div>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image 
+                                src='/assets/skills/python.png' 
+                                width='64px' 
+                                height='64px' 
+                                alt='/'
+                            />
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3>Python</h3>
+                        </div>
+                    </div>
+                </div>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image 
+                                src='/assets/skills/wordpress.png' 
+                                width='64px' 
+                                height='64px' 
+                                alt='/'
+                            />
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3>Wordpress</h3>
+                        </div>
+                    </div>
+                </div>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image 
                                 src='/assets/skills/github1.png' 
                                 width='64px' 
                                 height='64px' 
@@ -193,20 +238,19 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src='/assets/skills/wordpress.png' 
+                                src='/assets/skills/unity.png' 
                                 width='64px' 
                                 height='64px' 
                                 alt='/'
                             />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <h3>Wordpress</h3>
+                            <h3>Unity</h3>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
   )
 }
