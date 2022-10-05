@@ -14,13 +14,15 @@ const Projects = () => {
                     title='FlagNote-React' 
                     backgroundImg={FlagNoteImage} 
                     projectUrl='/flagnote'
-                    description='Backend: Ruby on Rails API Frontend: React-Redux'
+                    descBack='Backend: Ruby on Rails API '
+                    descFront='Frontend: React-Redux'
                 /> 
                 <ProjectItem  
                     title='Pantry-JS' 
                     backgroundImg={PantryJSImage} 
                     projectUrl='/pantryjs'
-                    description='Backend: Ruby on Rails API Frontend: Javascript'
+                    descBack='Backend: Ruby on Rails API '
+                    descFront='Frontend: Javascript'
                 /> 
             </div>
         </div>
