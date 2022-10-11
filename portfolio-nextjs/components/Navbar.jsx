@@ -50,7 +50,7 @@ const Navbar = () => {
       <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
         <div className={
             nav
-              ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
+              ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-blue-900 p-10 ease-in duration-500'
               : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
           }>
           <div>
@@ -82,7 +82,7 @@ const Navbar = () => {
                 </Link>
               </ul>
               <div className='pt-40'>
-                <p className='uppercase tracking-widest text-[#5651e6]'>Let&#39;s connect!</p>
+                <p className='uppercase tracking-widest text-green-600'>Let&#39;s connect!</p>
                 <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                     <Link href='https://www.linkedin.com/in/matthew-crooks-67887390/'>
