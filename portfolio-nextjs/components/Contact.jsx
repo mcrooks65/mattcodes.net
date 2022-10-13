@@ -10,6 +10,7 @@ const Contact = () => {
             <p className='text-xl tracking-widest uppercase text-green-600'>Contact</p>
             <h2 className='py-4'>Get In Touch</h2>
             <div className='grid lg:grid-cols-5 gap-8'>
+                {/* Left */}
                 <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
                     <div className='lg:p-4 h-full'>
                         <div>
@@ -39,9 +40,8 @@ const Contact = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    {/* right */}
-                    <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl py-4'>
+                    {/* Right */}
+                    <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
                         <div className='py-4'>
                             <form>
                                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
@@ -61,6 +61,8 @@ const Contact = () => {
                             </form>
                         </div>
                     </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>
