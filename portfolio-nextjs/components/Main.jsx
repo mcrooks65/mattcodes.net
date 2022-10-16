@@ -12,7 +12,7 @@ const Main = () => {
                     STILL NEED A COOL CATCHPHRASE OR TAGLINE HERE
                 </p>
                 <h1 className='py-4 text-white'> 
-                    Hi, I&#39;m <span className='text-green-600'>Matt</span>
+                    Hi, I&#39;m <span className='text-[#008037]'>Matt</span>
                 </h1>
                 <h1 className='py-4 text-white'> 
                     A Full-Stack Web Developer
