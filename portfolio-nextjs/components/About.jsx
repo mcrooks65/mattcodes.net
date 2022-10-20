@@ -24,7 +24,7 @@ const About = () => {
                   Flatiron's coding bootcamp was a truly immersive experience.  It provided me with the skills and the confidence to build web applications that are clean, efficient, and user-friendly.   This full stack education included programming fundamentals for HTML, CSS, OOP, Ruby, JavaScript, SQL, and ORM. I also learned web frameworks such as Rails and Sinatra and front-end frameworks like React, Redux, and JSON.  Designing and developing my porfolio projects with these technologies has prepped me for a proper engineering role where I can continue to build my skills.  
                 </p>
                 <Link href='/#projects'>
-                  <p className='py-2 text-gray-600 underline cursor-pointer'>
+                  <p className='py-2 text-gray-200 underline cursor-pointer'>
                     Check out some of my latest projects.
                   </p>
                 </Link>
