@@ -4,10 +4,27 @@ import React, {useEffect, useState} from 'react'
 import {AiOutlineMenu, AiOutlineClose, AiOutlineMail} from 'react-icons/ai'
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
+import {useRouter} from 'next/router'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
   const [shadow, setShadow] = useState(false)
+  const [navBg, setNavBg] = useState('rgb(30 58 138)')
+  const [linkColor, setLinkColor] = useState('#1f2937')
+  const router = useRouter()
+
+  useEffect(()=>{
+    if (
+      router.asPath === '/flagnote' ||
+      router.asPath === '/pantry'
+    ) {
+      setNavBg('transparent')
+      setLinkColor('rgb(30 58 138)')
+    } else {
+      setNavBg('rgb(30 58 138)')
+      setLinkColor('#1f2937')
+    }
+  }, [router])
 
   const handleNav = () => {
     setNav(!nav)
@@ -26,6 +43,7 @@ const Navbar = () => {
 
   return (
     <div 
+    style={{backgroundColor: `${navBg}`}}
     className={
       shadow 
         ? 'fixed w-full h-20 shadow-xl z-[100]' 
