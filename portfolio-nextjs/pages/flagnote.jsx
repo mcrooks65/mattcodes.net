@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import FlagNoteImage from '../public/assets/projects/FlagNote-React.jpg'
 import {RiRadioButtonFill} from 'react-icons/ri'
+import Link from 'next/link'
 
 const flagnote = () => {
   return (
@@ -27,9 +28,9 @@ const flagnote = () => {
             <p>A web-based note taking application specifically for pentesters and CTF events.</p>
             {/* TO ADD - Story behind project!  Why did you code it and what did you get out of it! */}
             <ul>
-                <li>● Designed an interactive, efficient UI with RESTful routing using React-Redux.</li>
-                <li>● Developed Ruby on Rails API back-end to handle data persistence and respond to fetch requests.</li>
-                <li>● Applied custom Tailwind styling resulting in improved readability and use.</li>
+                <li className='py-1'>● Designed an interactive, efficient UI with RESTful routing using React-Redux.</li>
+                <li className='py-1'>● Developed Ruby on Rails API back-end to handle data persistence and respond to fetch requests.</li>
+                <li className='py-1'>● Applied custom Tailwind styling resulting in improved readability and use.</li>
             </ul>
             <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
             <button className='px-8 py-2 mt-4'>Code</button>
@@ -48,6 +49,9 @@ const flagnote = () => {
             </div>
         </div>
       </div>
+      <Link href='/#projects'>
+        <p className='py-3 px-3 underline cursor-pointer'>Back</p>
+      </Link>
     </div>
   )
 }
