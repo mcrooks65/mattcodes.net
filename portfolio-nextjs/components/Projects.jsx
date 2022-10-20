@@ -20,7 +20,7 @@ const Projects = () => {
                 <ProjectItem  
                     title='Pantry-JS' 
                     backgroundImg={PantryJSImage} 
-                    projectUrl='/pantryjs'
+                    projectUrl='/pantry'
                     descBack='Backend: Ruby on Rails API '
                     descFront='Frontend: Javascript'
                 /> 
