@@ -5,10 +5,10 @@ import AboutImg from '../public/assets/about.jpg';
 
 const About = () => {
   return (
-    <div id='about'className='w-full md:h-screen p-2 flex items-center py-16'>
+    <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
         <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
             <div className='col-span-2'>
-                <h2 className='py-4 text-[#00800d]'>Who I Am</h2>
+                <h2 className='py-4 text-[#42e103]'>Who I Am</h2>
                 <p className='text-xl py-2 text-white'>
                   / / WebDev | GameDev | Project Management
                 </p>
