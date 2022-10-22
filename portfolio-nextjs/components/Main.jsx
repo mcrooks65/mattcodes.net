@@ -17,7 +17,7 @@ const Main = () => {
                 <h1 className='py-4 text-white'> 
                     A Full-Stack Web Developer
                 </h1>
-                <p className='px-36 py-4 text-white max-2-[70%] m-auto text-2xl' >
+                <p className='px-24 py-4 text-white max-2-[70%] m-auto text-2xl' >
                     I&#39;m a Full-Stack Web Developer specializing in building and designing clean, user-friendly digital experiences.  Currently, I&#39;m focused on building responsive front-end web applications, while maintaining my own back-end API&#39;s for various projects.
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
