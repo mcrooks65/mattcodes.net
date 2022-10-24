@@ -8,7 +8,7 @@ const Projects = () => {
     <div id='projects' className='w-full '>
         <div className='max-w-[1240px] mx-auto px-2 py-16'>
             <h2 className='py-4 text-[#42e103]'>What I've Built</h2>
-            <div className='grid md:grid-cols-2 gap-8'>
+            <div className='grid md:grid-cols-2 gap-8 text-xl'>
                 <ProjectItem  
                     title='FlagNote-React' 
                     backgroundImg={FlagNoteImage} 
