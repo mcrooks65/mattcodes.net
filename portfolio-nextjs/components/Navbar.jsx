@@ -102,39 +102,43 @@ const Navbar = () => {
             <div className='py-4 flex flex-col'>
               <ul className='uppercase'>
                 <Link href='/'>
-                  <li onClick={()=> setNav(false)}className='py-4 text-sm'>Home</li>
+                  <li onClick={()=> setNav(false)} className='py-4 text-sm'>Home</li>
                 </Link>
                 <Link href='/#about'>
-                  <li onClick={()=> setNav(false)}className='py-4 text-sm'>About</li>
+                  <li onClick={()=> setNav(false)} className='py-4 text-sm'>About</li>
                 </Link>
                 <Link href='/#skills'>
-                  <li onClick={()=> setNav(false)}className='py-4 text-sm'>Skills</li>
+                  <li onClick={()=> setNav(false)} className='py-4 text-sm'>Skills</li>
                 </Link>
                 <Link href='/#projects'>
-                  <li onClick={()=> setNav(false)}className='py-4 text-sm'>Projects</li>
+                  <li onClick={()=> setNav(false)} className='py-4 text-sm'>Projects</li>
                 </Link>
                 <Link href='/#contact'>
-                  <li onClick={()=> setNav(false)}className='py-4 text-sm'>Contact</li>
+                  <li onClick={()=> setNav(false)} className='py-4 text-sm'>Contact</li>
                 </Link>
               </ul>
               <div className='pt-40'>
                 <p className='uppercase tracking-widest text-[#008037]'>Let&#39;s connect!</p>
                 <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    <Link href='https://www.linkedin.com/in/matthew-crooks-67887390/'>
+                    <a href='https://www.linkedin.com/in/matthew-crooks-67887390/'>
                       <FaLinkedinIn />
-                    </Link>
+                    </a>
                   </div> 
                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    <Link href='https://github.com/mcrooks65'>
+                    <a href='https://github.com/mcrooks65'>
                       <FaGithub />
+                    </a>
+                  </div>
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                    <Link href="/#contact">
+                      <AiOutlineMail onClick={()=> setNav(false)} />
                     </Link>
                   </div>
                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    <AiOutlineMail  />
-                  </div>
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    <BsFillPersonLinesFill  />
+                    <Link href="/assets/MC-Resume.pdf">
+                      <BsFillPersonLinesFill  />
+                    </Link>
                   </div>
                 </div>
               </div>
