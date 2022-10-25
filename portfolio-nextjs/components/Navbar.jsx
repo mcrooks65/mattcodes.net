@@ -91,7 +91,7 @@ const Navbar = () => {
           }>
           <div>
             <div className='flex w-full items-center justify-between'>
-              <Image src="/assets/navLogo.png" alt="/" width='125' height='125'/>
+              <Image src="/assets/navLogo.png" alt="/" width='175' height='175'/>
               <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                 <AiOutlineClose />
               </div>
@@ -118,7 +118,7 @@ const Navbar = () => {
                 </Link>
               </ul>
               <div className='pt-40'>
-                <p className='uppercase tracking-widest text-[#008037]'>Let&#39;s connect!</p>
+                <p className='uppercase tracking-widest text-[#42e103]'>Let&#39;s connect!</p>
                 <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                     <a href='https://www.linkedin.com/in/matthew-crooks-67887390/'>
