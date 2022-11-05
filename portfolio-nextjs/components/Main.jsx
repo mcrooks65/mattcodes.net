@@ -10,7 +10,7 @@ const Main = () => {
         <div className='max-width-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
             <div>
                 <p className='uppercase text-sm tracking-widest text-white'>
-                    STILL NEED A COOL CATCHPHRASE OR TAGLINE HERE
+                    
                 </p>
                 <h1 className='py-4 text-white'> 
                     Hi, I&#39;m <span className='text-[#42e103]'>Matt</span>

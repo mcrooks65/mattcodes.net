@@ -97,7 +97,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className='border-b border-gray-300 my-4'>
-              <p className='w-[85%] md:w [90%] py-4'>Insert Clever Tagline Here</p>
+              <p className='w-[85%] md:w [90%] py-4'></p>
             </div>
             <div className='py-4 flex flex-col'>
               <ul className='uppercase'>
