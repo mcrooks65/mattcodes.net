@@ -32,8 +32,13 @@ const pantry = () => {
                 <li className='py-1'>● Built an expandable project, with room to add new modules for recipes or grocery lists.</li>
                 <li className='py-1'>● Leveraged Rails backend API and PostGres for the database.</li>
             </ul>
-            <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-            <button className='px-8 py-2 mt-4'>Code</button>
+            <Link href='https://www.youtube.com/watch?v=qbUHw_duPBE'>
+              <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
+            </Link>
+            <Link href='https://github.com/mcrooks65/pantry-js-frontend'>
+              <button className='px-8 py-2 mt-4'>Code</button>
+            </Link>
+            
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
             <div className='p-2'>
