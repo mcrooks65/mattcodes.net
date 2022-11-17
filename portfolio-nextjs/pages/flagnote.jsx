@@ -28,12 +28,17 @@ const flagnote = () => {
             <p>A web-based note taking application specifically for pentesters and CTF events.</p>
             {/* TO ADD - Story behind project!  Why did you code it and what did you get out of it! */}
             <ul>
-                <li className='py-1'>● Designed an interactive, efficient UI with RESTful routing using React-Redux.</li>
-                <li className='py-1'>● Developed Ruby on Rails API back-end to handle data persistence and respond to fetch requests.</li>
-                <li className='py-1'>● Applied custom Tailwind styling resulting in improved readability and use.</li>
+              <li className='py-1'>● Developed Ruby on Rails API back-end to handle data persistence and respond to fetch requests.</li>
+              <li className='py-1'>● Applied custom Tailwind styling resulting in improved readability and use.</li>
+              <li className='py-1'>● Designed an interactive, efficient UI with RESTful routing using React-Redux.</li>
             </ul>
-            <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-            <button className='px-8 py-2 mt-4'>Code</button>
+            <Link href='https://www.youtube.com/watch?v=zmkXnhKiTMo'>
+              <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
+            </Link>
+            <Link href='https://github.com/mcrooks65/flagnote-react-redux-frontend'>
+              <button className='px-8 py-2 mt-4'>Code</button>
+            </Link>
+            
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
             <div className='p-2'>
